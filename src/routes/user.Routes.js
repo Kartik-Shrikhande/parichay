@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const userProfileController = require("../controllers/user.Controller")
-const utility = require("../controllers/otp.Controller")
+// const utility = require("../controllers/otp.Controller")
 const Middleware= require("../middleware/middleware")
 
 router.post('/signup', userProfileController.userSignup)
